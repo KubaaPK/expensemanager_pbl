@@ -36484,7 +36484,7 @@ function getdataFactory($http) {
         getData: null
     };
     exports.getData= function () {
-        return $http.get("app/data/exampledata.json");
+        return $http.get("expensemanager_pbl/app/data/exampledata.json");
     };
     return exports;
 }
